@@ -4,111 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colmar Academy</title>
+    <link rel="stylesheet" href="./resources/style.css" />
   </head>
   <body>
-    <header>
+    <header class="flex-container">
       <span id="logo"><img src="./resources/images/ic-logo.svg" alt="" /></span>
-      <span id="bold-colmar">COLMAR</span><span id="grey-academy">ACADEMY</span>
+      <span id="colmar">COLMAR</span><span id="academy">ACADEMY</span>
       <nav>
-        <span>On campus</span>
-        <span>Online</span>
-        <span>or companies</span>
+        <span class="right-margin">On campus</span>
+        <span class="right-margin">Online</span>
+        <span class="right-margin">or companies</span>
         <span>Sign in</span>
       </nav>
     </header>
     <div class="intro">
       <img src="./resources/images/banner.jpg" alt="" />
-      <h2>Learn something new everyday</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adpscing elit.</p>
-      <h6 class="button">Start here</h6>
+      <div>
+        <h2>Learn something new everyday</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adpscing elit.</p>
+        <h6 class="button">Start here</h6>
+      </div>
     </div>
     <div class="about-campus">
       <div class="big-box">
-        <img src="./resources/images/information-main.jpg" alt="" />
-        <h2>It doesn't hurt to keep practicing</h2>
-        <p>
-          "Curabitur vitae libero in ipsum portitor consequat. Aliquam et
-          commodo lectus nec consequat neque. Sed non accumsan urna. Phasellus
-          sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-          tristique ligula."
-        </p>
-        <h6 class="author">Emanuel, Sr Strategist at Hiring.com</h6>
+        <div class="img-container">
+          <img src="./resources/images/information-main.jpg" alt="" />
+        </div>
+        <div class="big-box-text">
+          <h2>It doesn't hurt to keep practicing</h2>
+          <p>
+            "Curabitur vitae libero in ipsum portitor consequat. Aliquam et
+            commodo lectus nec consequat neque. Sed non accumsan urna. Phasellus
+            sed consequat ex. Etiam eget magna laoreet, efficitur dolor
+            consequat, tristique ligula."
+          </p>
+          <h6 class="author">Emanuel, Sr Strategist at Hiring.com</h6>
+        </div>
       </div>
       <div class="small-boxes">
-        <div class="small-box">
-          <img src="./resources/images/information-orientation.jpg" alt="" />
-          <h5 class="infobox-title">Orientation date</h5>
-          <p class="info-details">Tue 10/11 & Wed 10/12: 8am-3pm</p>
-          <p class="link">Read more</p>
+        <div class="small-box orientation">
+          <div class="img-container">
+            <img src="./resources/images/information-orientation.jpg" alt="" />
+          </div>
+          <div class="infobox">
+            <h5 class="infobox-title">Orientation date</h5>
+            <p class="info-details">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <p class="link">Read more</p>
+          </div>
         </div>
         <div class="small-box">
-          <img src="./resources/images/information-campus.jpg" alt="" />
-          <h5 class="infobox-title">Our campus</h5>
-          <p class="info-details">Find which campus is close by you</p>
-          <p class="link">Read more</p>
+          <div class="img-container">
+            <img src="./resources/images/information-campus.jpg" alt="" />
+          </div>
+          <div class="infobox">
+            <h5 class="infobox-title">Our campus</h5>
+            <p class="info-details">Find which campus is close by you</p>
+            <p class="link">Read more</p>
+          </div>
         </div>
-        <div class="small-box">
-          <img src="./resources/images/information-guest-lecture.jpg" alt="" />
-          <h5 class="infobox-title">Our guest lecture</h5>
-          <p class="info-details">
-            Join a keynote with Oliver Sack about music in medical treatment.
-          </p>
-          <p class="link">Read more</p>
+        <div class="small-box guest-lecture">
+          <div class="img-container">
+            <img
+              src="./resources/images/information-guest-lecture.jpg"
+              alt=""
+            />
+          </div>
+          <div class="infobox">
+            <h5 class="infobox-title">Our guest lecture</h5>
+            <p class="info-details">
+              Join a keynote with Oliver Sack about music in medical treatment.
+            </p>
+            <p class="link">Read more</p>
+          </div>
         </div>
       </div>
     </div>
     <div class="courses">
-      <div class="course-box">
-        <img src="./resources/images/course-software.jpg" alt="" />
-        <h6 class="course-title">Software engineering</h6>
-        <p class="capital-courses">COURSES</p>
-        <p class="course-content">
-          Web Development, Mobile Development, iOT, APIs
-        </p>
-      </div>
-      <div class="course-box">
-        <img src="./resources/images/course-computer-art.jpg" alt="" />
-        <h6 class="course-title">Computer art</h6>
-        <p class="capital-courses">COURSES</p>
-        <p class="course-content">
-          Imaging & Design, Web Design, Motion Graphics, & Visual Effects,
-          Computer Animation
-        </p>
-      </div>
-      <div class="course-box">
-        <img src="./resources/images/course-design.jpg" alt="" />
-        <h6 class="course-title">Design</h6>
-        <p class="capital-courses">COURSES</p>
-        <p class="course-content">
-          User Experience Design, User Research, visual Design
-        </p>
-      </div>
-      <div class="course-box">
-        <img src="./resources/images/course-data.jpg" alt="" />
-        <h6 class="course-title">Data</h6>
-        <p class="capital-courses">COURSES</p>
-        <p class="course-content">
-          Data Science, Big Data, SQL, Data Visualization
-        </p>
-      </div>
-      <div class="course-box">
-        <img src="./resources/images/course-business.jpg" alt="" />
-        <h6 class="course-title">Business</h6>
-        <p class="capital-courses">COURSES</p>
-        <p class="course-content">
-          Product Development, Business, Development, Startup
-        </p>
-      </div>
-      <div class="course-box">
-        <img src="./resources/images/course-marketing.jpg" alt="" />
-        <h6 class="course-title">Marketing</h6>
-        <p class="capital-courses">COURSES</p>
-        <p class="course-content">
-          Analytics, Content Marketing, Mobile Marketing
-        </p>
+      <h2>Start learning</h2>
+      <div class="course-boxes">
+        <div class="course-box left-box">
+          <img src="./resources/images/course-software.jpg" alt="" />
+          <h6 class="course-title">Software engineering</h6>
+          <p class="capital-courses">COURSES</p>
+          <p class="course-content">
+            Web Development, Mobile Development, iOT, APIs
+          </p>
+        </div>
+        <div class="course-box">
+          <img src="./resources/images/course-computer-art.jpg" alt="" />
+          <h6 class="course-title">Computer art</h6>
+          <p class="capital-courses">COURSES</p>
+          <p class="course-content">
+            Imaging & Design, Web Design, Motion Graphics, & Visual Effects,
+            Computer Animation
+          </p>
+        </div>
+        <div class="course-box right-box">
+          <img src="./resources/images/course-design.jpg" alt="" />
+          <h6 class="course-title">Design</h6>
+          <p class="capital-courses">COURSES</p>
+          <p class="course-content">
+            User Experience Design, User Research, visual Design
+          </p>
+        </div>
+        <div class="course-box left-box">
+          <img src="./resources/images/course-data.jpg" alt="" />
+          <h6 class="course-title">Data</h6>
+          <p class="capital-courses">COURSES</p>
+          <p class="course-content">
+            Data Science, Big Data, SQL, Data Visualization
+          </p>
+        </div>
+        <div class="course-box">
+          <img src="./resources/images/course-business.jpg" alt="" />
+          <h6 class="course-title">Business</h6>
+          <p class="capital-courses">COURSES</p>
+          <p class="course-content">
+            Product Development, Business, Development, Startup
+          </p>
+        </div>
+        <div class="course-box right-box">
+          <img src="./resources/images/course-marketing.jpg" alt="" />
+          <h6 class="course-title">Marketing</h6>
+          <p class="capital-courses">COURSES</p>
+          <p class="course-content">
+            Analytics, Content Marketing, Mobile Marketing
+          </p>
+        </div>
       </div>
     </div>
     <div class="thesis">
+      <h2>Thesis exhibit</h2>
       <div class="big-box"></div>
       <video autoplay loop src="./resources/videos/thesis.mp4"></video>
       <h6 class="video-title">Reimagine urban</h6>
