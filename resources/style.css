@@ -14,6 +14,10 @@ h2{
     margin: 0;
 }
 
+p{
+    line-height: 1.5;
+}
+
 #colmar {
   color: grey;
   font-weight: bold;
@@ -23,11 +27,15 @@ h2{
   color: lightgrey;
 }
 
+header{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
 header.flex-container {
   display: flex;
   width: 100%;
   height: 64px;
-  margin: 0 24px;
   align-items: center;
   justify-content: center;
 }
@@ -38,12 +46,10 @@ nav {
 }
 
 nav span {
-  margin-right: 16px;
+  padding-left: 16px;
 }
 
-.righ-margin {
-  margin-right: 16px;
-}
+
 
 .intro {
   display: flex;
@@ -82,18 +88,18 @@ nav span {
   justify-content: center;
 }
 
-.big-box {
+.about-campus .big-box {
   width: 60%;
   border-right: solid thin lightgrey;
   border-bottom: solid thin lightgrey;
 }
 
-.img-container {
+.about-campus .img-container {
   padding: 32px 24px;
   
 }
 
-.big-box img {
+.about-campus .big-box img {
   width: 100%;
 }
 
@@ -102,34 +108,34 @@ nav span {
     padding-left: 24px;
 }
 
-.big-box h2,
-.big-box p,
-.big-box h6 {
+.about-campus .big-box h2,
+.about-campus .big-box p,
+.about-campus .big-box h6 {
   width: 100%;
   color: darkslategrey;
 }
 
-.big-box h2 {
+.about-campus .big-box h2 {
   margin-bottom: 24px;
   font-size: 34px;
 }
 
-.big-box p{
+.about-campus .big-box p{
     font-size: 14px;
 }
-.big-box h6 {
+ .about-campus .big-box h6 {
   margin-bottom: 32px;
   margin-top: 28px;
 }
 
-.small-boxes {
+.about-campus .small-boxes {
   border-right: solid thin lightgrey;
   width: 40%;
   
 
 }
 
-.small-box {
+.about-campus .small-box {
   display: flex;
   border-bottom: thin solid lightgrey;
   padding-left: 16px;
@@ -138,12 +144,12 @@ nav span {
   
 }
 
-.small-box .img-container{
+.about-campus .small-box .img-container{
     width: 35%;
     padding: 16px 0px;
 }
 
-.small-box img {
+.about-campus .small-box img {
   width: 100%;
 }
 
@@ -180,18 +186,19 @@ nav span {
 .courses {
 background-color: lightgrey;
 color: darkslategrey;
+overflow: auto;
 }
 
 .course-boxes{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+       justify-content: center;
 }
 
 .course-box{
     width: 261.33px;
     overflow: auto;
+    background-color: white;
 }
 
 .course-box img{
@@ -203,6 +210,7 @@ color: darkslategrey;
   margin-top: 32px;
   margin-bottom: 32px;
   text-align: center;
+
 }
 
 .left-box {
@@ -215,4 +223,114 @@ color: darkslategrey;
   margin-left: 16px;
 }
 
+.course-title{
+    font-size: 20px;
+    padding-top: 16px;
+    margin: 0;
+}
 
+.capital-courses{
+    padding-top: 8px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.course-content{
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    margin: 0;
+}
+
+.course-box h6, .course-box p{
+    padding-left: 16px;
+}
+
+.bottom-box{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.thesis h2{
+    margin: 32px 0 32px 0;
+    text-align: center;
+}
+
+.thesis .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.thesis .big-box{
+    padding-left: 24px;
+    padding-bottom: 32px;
+    width: 60%;
+}
+
+.video-container{
+    padding: 0px 24px 24px 0px;
+}
+
+video{
+    width: 100%;
+}
+
+.video-title{
+    font-size: 16px;
+    margin: 0;
+}
+
+.video-description{
+    font-size: 12px;
+    padding-right: 24px;
+}
+
+.thesis .small-boxes{
+    width: 40%;
+}
+
+.thesis .small-box{
+    display: flex;
+    align-items: center;
+    padding: 16px 24px 16px 16px;
+    
+}
+
+.thesis .img-container{
+    width: 35%;
+    padding-right: 16px;
+}
+
+.thesis img{
+    width: 100%;
+}
+
+.thesis .box-text{
+    width: 65%;
+}
+
+.thesis .smallbox-title{
+    font-size: 16px;
+    margin: 0;
+}
+
+.thesis .smallbox-description{
+    font-size: 12px;
+    margin: 0;
+    padding: 8px 24px 24px 0;
+}
+
+.fisma{
+    background-color: lightgrey;
+}
+
+footer{
+    padding: 16px 8px 24px 24px;
+    font-size: 10px;
+}
+
+.terms-privacy{
+    text-align: right;
+}

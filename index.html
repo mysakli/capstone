@@ -107,7 +107,7 @@
             User Experience Design, User Research, visual Design
           </p>
         </div>
-        <div class="course-box left-box">
+        <div class="course-box left-box bottom-box">
           <img src="./resources/images/course-data.jpg" alt="" />
           <h6 class="course-title">Data</h6>
           <p class="capital-courses">COURSES</p>
@@ -115,7 +115,7 @@
             Data Science, Big Data, SQL, Data Visualization
           </p>
         </div>
-        <div class="course-box">
+        <div class="course-box bottom-box">
           <img src="./resources/images/course-business.jpg" alt="" />
           <h6 class="course-title">Business</h6>
           <p class="capital-courses">COURSES</p>
@@ -123,7 +123,7 @@
             Product Development, Business, Development, Startup
           </p>
         </div>
-        <div class="course-box right-box">
+        <div class="course-box right-box bottom-box">
           <img src="./resources/images/course-marketing.jpg" alt="" />
           <h6 class="course-title">Marketing</h6>
           <p class="capital-courses">COURSES</p>
@@ -135,32 +135,51 @@
     </div>
     <div class="thesis">
       <h2>Thesis exhibit</h2>
-      <div class="big-box"></div>
-      <video autoplay loop src="./resources/videos/thesis.mp4"></video>
-      <h6 class="video-title">Reimagine urban</h6>
-      <p class="video-description">
-        "Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo
-        lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed
-        consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-        tristiqueligula."
-      </p>
-      <div class="small-box">
-        <img src="./resources/images/thesis-fisma.jpg" alt="" />
-        <h6 class="smallbox-title">Fisma: Design and Prototype</h6>
-        <p class="smallbox-description">
-          Designer showcase of new prorotype product
+      <div class="flex-container">
+        <div class="big-box">
+        <div class="video-container">
+        <video autoplay loop src="./resources/videos/thesis.mp4"></video>
+        </div>
+        <h6 class="video-title">Reimagine urban</h6>
+        <p class="video-description">
+          "Curabitur vitae libero in ipsum portitor consequat. Aliquam et
+          commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus
+          sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+          tristiqueligula."
         </p>
-      </div>
-      <div class="small-box">
-        <img src="./resources/images/thesis-now-and-then.jpg" alt="" />
-        <h6 class="smallbox-title">Now and then</h6>
-        <p class="smallbox-description">Research study about New York</p>
+        </div>
+            <div class="small-boxes">
+          <div class="small-box fisma">
+            <div class="img-container">
+              <img src="./resources/images/thesis-fisma.jpg" alt="" />
+            </div>
+            <div class="box-text">
+              <h6 class="smallbox-title">Fisma: Design and Prototype</h6>
+              <p class="smallbox-description">
+                Designer showcase of new prorotype product
+              </p>
+            </div>
+          </div>
+          <div class="small-box">
+            <div class="img-container">
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="" />
+            </div>
+            <div class="box-text">
+              <h6 class="smallbox-title">Now and then</h6>
+              <p class="smallbox-description">Research study about New York</p>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <footer>
       <span id="copyright">&copy;2016 Colmar Academy. All rights reserved</span>
-      <span class="terms-privacy">Terms</span>
-      <span class="terms-privacy">Privacy</span>
+      <div class="terms-privacy">
+      <span>Terms</span>
+      <span>Privacy</span>
+      </div>
+
     </footer>
   </body>
 </html>
